@@ -17,7 +17,7 @@ public class Controlador {
     
     
     String usuario="sebas";
-    String contra="lima123";
+    String contra="lima";//jean modifique aquí 
     
     @GetMapping("/")
     public String login(){
