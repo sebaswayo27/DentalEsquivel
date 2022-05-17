@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class Controlador {
     
     
-    String usuario="sebas";
-    String contra="lima";//jean modifique aquí 
+    String usuario="admin";
+    String contra="admin";
     
     @GetMapping("/")
     public String login(){
